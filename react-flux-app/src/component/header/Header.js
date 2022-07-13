@@ -16,7 +16,7 @@ function Header() {
                             height="40"
                             className="d-inline-block align-top"
                         />
-                        <i className='titoloNav'>Ristorante</i>                        
+                        <i className='titoloNav'>Ristorante</i>
                     </Navbar.Brand>
                 </Container>
             </Navbar>

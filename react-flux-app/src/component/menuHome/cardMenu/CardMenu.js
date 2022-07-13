@@ -4,27 +4,25 @@ import PropTypes from 'prop-types';
 
 const propTypes = {
     key: PropTypes.string,
-    color: PropTypes.string,
+    colore: PropTypes.string,
     titolo: PropTypes.string,
     testo: PropTypes.string,
 
 }
 
 function CardMenu(props) {
-    console.log(props)
     return (
         <div>
             <Card
                 bg={props.colore}
                 key={props.key}
-                style={{ width: '18rem' }}
-                className="mb-2"
+                className="m-4"
             >
-                <Card.Header>
+                <Card.Header className='titoloCard'>
                     {props.titolo}
                 </Card.Header>
                 <Card.Body>
-                    <Card.Text>
+                    <Card.Text className='testoCard'>
                         {props.testo}
                     </Card.Text>
                 </Card.Body>
