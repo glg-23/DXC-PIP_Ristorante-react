@@ -1,26 +1,36 @@
 import './HomePage.css';
 import CardHome from './cardHome/CardHome';
+import CardHomePage from '../cardHomePage/CardHomePage';
 
 function HomePage() {
     return (
         <div>
             <h1>Benvenuto</h1>
 
-            <CardHome
-                key={'card_1'}
-                titolo={'Ricette'}
-                testo={'clicca qui per vedere tutte le ricette'}
-                colore={'primary'}
-            ></CardHome>
+            <div className='row'>
+                <CardHomePage
+                    titolo='Ricette'
+                    testo="Clicca qui per visualizzare l'elenco delle ricette"
+                    collegamento='/ricette'
+                    colore='blue'>
+                    </CardHomePage>
 
-            <CardHome
-                key={'card_2'}
-                titolo={'Aggiungi nuova ricetta'}
-                testo={'clicca qui per aggiungere nuove ricette'}
-                colore={'success'}
-            ></CardHome>
+                <CardHomePage
+                    titolo='Informazioni'
+                    testo="Clicca qui per avere maggiori informazioni"
+                    collegamento='/informazioni'
 
-        </div>
+                    colore='yellow'>
+                    </CardHomePage>
+
+                <CardHomePage
+                    titolo='#######'
+                    testo=""
+                    collegamento='/'
+                    colore='green'>
+                    </CardHomePage>
+            </div>
+        </div >
     );
 }
 
