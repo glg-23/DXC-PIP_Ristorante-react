@@ -6,7 +6,7 @@ import logo from '../../logoRistorante-bianco.png';
 
 function Header() {
     return (
-        <div >
+        <div>
             <Navbar className='sfondoNav' variant="dark">
                 <Container>
                     <Navbar.Brand href="/">
