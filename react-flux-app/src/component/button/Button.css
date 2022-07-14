@@ -1,0 +1,12 @@
+.button {
+    background-color: orange;
+    color: white;
+    width: 50vh;
+    border-color: orange;
+}
+
+.button:hover {
+    background-color: white;
+    color: orange;
+    border-color: orange;
+}
