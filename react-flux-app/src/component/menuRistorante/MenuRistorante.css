@@ -1,0 +1,7 @@
+.contenitoreCard{
+    display: flex;
+}
+.contenitoreAggiungi{
+    display: inline-block;
+    width: 80%;
+}

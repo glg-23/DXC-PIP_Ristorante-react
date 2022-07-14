@@ -16,12 +16,12 @@ function Header() {
                             height="40"
                             className="d-inline-block align-top"
                         />
-                        <i className='titoloNav'>Ricettario</i>
+                        <i className='titoloNav'>Ristorante</i>
                     </Navbar.Brand>
 
                     <Nav className="me-auto">
                         <Nav.Link href="/">Home</Nav.Link>
-                        <Nav.Link href="/ricette">Ricette</Nav.Link>
+                        <Nav.Link href="/menu">Menù</Nav.Link>
                         <Nav.Link href="/informazioni">Informazioni</Nav.Link>
                     </Nav>
                 </Container>

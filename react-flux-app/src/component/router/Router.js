@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from '../homePage/HomePage';
-import Ricette from '../ricette/Ricette';
+import MenuRistorante from '../menuRistorante/MenuRistorante';
 import Informazioni from '../informazioni/Informazioni';
 import NoPage from '../noPage/NoPage';
 
@@ -10,7 +10,7 @@ function Router() {
         <BrowserRouter>
             <Routes>
                 <Route index element={<Home />} />
-                <Route path="ricette" element={<Ricette />} />
+                <Route path="menu" element={<MenuRistorante />} />
                 <Route path="informazioni" element={<Informazioni />} />
                 <Route path="*" element={<NoPage />} />
             </Routes>
