@@ -1,5 +1,4 @@
 import './HomePage.css';
-import CardHome from './cardHome/CardHome';
 import CardHomePage from '../cardHomePage/CardHomePage';
 
 function HomePage() {
@@ -19,7 +18,6 @@ function HomePage() {
                     titolo='Informazioni'
                     testo="Clicca qui per avere maggiori informazioni"
                     collegamento='/informazioni'
-
                     colore='yellow'>
                     </CardHomePage>
 
