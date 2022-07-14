@@ -5,12 +5,9 @@ function AggiungiPiatto() {
     return (
         <div>
 
-            <form>
-                <div class="form-group">
-                    <label>Nome del piatto</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder=""></input>
-                </div>
+            <h2>Aggiungi un nuovo piatto</h2>
 
+            <form>
                 <div class="form-group">
                     <label>Categoria</label>
                     <select class="form-control" id="exampleFormControlSelect1">
@@ -21,6 +18,11 @@ function AggiungiPiatto() {
                         <option>Contorni</option>
                         <option>Dolci</option>
                     </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Nome del piatto</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder=""></input>
                 </div>
 
                 <div class="form-group">
