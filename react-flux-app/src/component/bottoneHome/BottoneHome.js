@@ -6,7 +6,7 @@ function BottoneHome() {
         <div >
             <Button
                 size="lg"
-                className='button'
+                className='bottone'
                 href='/'>
                 Torna alla Home</Button>
         </div>

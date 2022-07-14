@@ -1,14 +1,14 @@
-.button, .button:focus {
-    background-color: orange;
-    color: white;
-    border-color: orange;
-    width: 50vh;
-    margin-top: 20vh;
-    box-shadow: none;
+.bottone, .bottone:focus {
+    background-color: orange !important;
+    color: white !important;
+    border-color: orange !important;
+    width: 50vh !important;
+    margin-top: 20vh !important;
+    box-shadow: none !important;
 }
 
-.button:hover {
-    background-color: white;
-    color: orange;
-    border-color: orange;
+.bottone:hover {
+    background-color: white !important;
+    color: orange !important;
+    border-color: orange !important;
 }
