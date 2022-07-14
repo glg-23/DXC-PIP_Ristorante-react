@@ -1,12 +1,12 @@
 import './App.css';
 import Header from './component/header/Header';
-import MenuHome from './component/menuHome/MenuHome';
+import Router from './component/router/Router';
 
 function App() {
   return (
     <div className="App">
       <Header></Header>
-      <MenuHome></MenuHome>
+      <Router></Router>
     </div>
   );
 }
