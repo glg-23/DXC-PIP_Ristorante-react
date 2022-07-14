@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 
 function BottoneHome() {
     return (
-        <div >
+        <div>
             <Button
                 size="lg"
                 className='bottone'
