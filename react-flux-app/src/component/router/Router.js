@@ -10,7 +10,7 @@ function Router() {
         <BrowserRouter>
             <Routes>
                 <Route index element={<Home />} />
-                <Route path="Ricette" element={<Ricette />} />
+                <Route path="ricette" element={<Ricette />} />
                 <Route path="informazioni" element={<Informazioni />} />
                 <Route path="*" element={<NoPage />} />
             </Routes>

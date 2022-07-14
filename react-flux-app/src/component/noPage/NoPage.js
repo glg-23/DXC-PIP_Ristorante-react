@@ -1,10 +1,11 @@
 import './NoPage.css';
-import { Button } from 'bootstrap';
+import BottoneHome from '../bottoneHome/BottoneHome';
 
 function NoPage() {
     return (
         <div>
-            <h1>La pagina non è stata trovata</h1>
+            <h2>La pagina non è stata trovata</h2>
+            <BottoneHome />
         </div>
     );
 }

@@ -1,10 +1,11 @@
 import './Ricette.css';
-import { Button } from 'bootstrap';
+import BottoneHome from '../bottoneHome/BottoneHome';
 
 function Ricette() {
     return (
         <div>
-            <h1>Elenco ricette</h1>
+            <h2>Elenco ricette</h2>
+            <BottoneHome />
         </div>
     );
 }

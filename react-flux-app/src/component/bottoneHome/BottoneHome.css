@@ -1,8 +1,10 @@
-.button {
+.button, .button:focus {
     background-color: orange;
     color: white;
-    width: 50vh;
     border-color: orange;
+    width: 50vh;
+    margin-top: 20vh;
+    box-shadow: none;
 }
 
 .button:hover {
