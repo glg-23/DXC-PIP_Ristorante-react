@@ -1,4 +1,19 @@
-.form-group{
+.form-group {
     text-align: start;
     margin-top: 30px;
+}
+
+.bottoneSubmit, .bottoneSubmit:focus {
+    background-color: orange !important;
+    color: white !important;
+    border-color: orange !important;
+    width: 50vh !important;
+    margin: 5vh !important;
+    box-shadow: none !important;
+}
+
+.bottoneSubmit:hover {
+    background-color: white !important;
+    color: orange !important;
+    border-color: orange !important;
 }
