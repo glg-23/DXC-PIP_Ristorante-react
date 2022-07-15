@@ -1,5 +1,7 @@
 import './AggiungiPiatto.css';
 import Bottone from '../bottone/Bottone';
+import Form from 'react-bootstrap/Form';
+
 
 function AggiungiPiatto() {
     return (
@@ -8,27 +10,27 @@ function AggiungiPiatto() {
             <h2>Aggiungi un nuovo piatto</h2>
 
             <form>
-                <div class="form-group">
-                    <label>Categoria</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
+                <Form.Group className="form-group" controlId="selectCategoria">
+                    <Form.Label>Categoria</Form.Label>
+                    <Form.Select>
                         <option></option>
                         <option>Antipasti</option>
                         <option>Primi</option>
                         <option>Secondi</option>
                         <option>Contorni</option>
                         <option>Dolci</option>
-                    </select>
-                </div>
+                    </Form.Select>
+                </Form.Group>
 
-                <div class="form-group">
-                    <label>Nome del piatto</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder=""></input>
-                </div>
+                <Form.Group className="form-group" controlId="inputNome">
+                    <Form.Label>Nome del piatto</Form.Label>
+                    <Form.Control type="text" />
+                </Form.Group>
 
-                <div class="form-group">
-                    <label>ingredienti</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
+                <Form.Group className="form-group" controlId="exampleForm.ControlTextarea1">
+                    <Form.Label>Ingredienti</Form.Label>
+                    <Form.Control as="textarea" />
+                </Form.Group>
             </form>
 
             <Bottone
