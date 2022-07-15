@@ -7,10 +7,26 @@ import Bottone from '../bottone/Bottone';
 class MenuRistorante extends React.Component {
 
     state = {
-        categoria: "null",
-        titolo: "null",
-        ingredienti: "null",
-        colore: "null"
+        categoria: "",
+        nomePiatto: "",
+        ingredienti: "",
+        colore: ""
+    }
+
+    handleChange = (event) => {
+        const value = event.target.value;
+        const id = event.target.id;
+        this.setState({
+            [id]: value,
+        });
+        console.log(this.state)
+    }
+
+    handleSubmit = (event) => {
+        alert('Piatto inserito: ' + this.state.nomePiatto);
+        event.preventDefault();
+
+        this.setState({ categoria: "", nomePiatto: "", ingredienti: "" })
     }
 
     creaCard() {
@@ -26,14 +42,6 @@ class MenuRistorante extends React.Component {
     }
 
     selezionaColore() {
-        /*var colori = [
-            'yellow',
-            'blue',
-            'green',
-            'purple',
-            'orange'
-        ]; */
-
         switch (this.state.categoria) {
             case "ANTIPASTI": this.setState({ colore: 'yellow' });
                 break;
@@ -79,7 +87,13 @@ class MenuRistorante extends React.Component {
                 </div>
 
                 <div className='contenitoreAggiungi'>
-                    <AggiungiPiatto></AggiungiPiatto>
+                    <AggiungiPiatto
+                        handleChange={this.handleChange}
+                        handleSubmit={this.handleSubmit}
+                        categoria={this.state.categoria}
+                        nomePiatto={this.state.nomePiatto}
+                        ingredienti={this.state.ingredienti}
+                    ></AggiungiPiatto>
                 </div>
 
                 <Bottone
