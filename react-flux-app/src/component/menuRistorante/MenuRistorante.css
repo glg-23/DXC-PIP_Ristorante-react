@@ -1,5 +1,5 @@
 .contenitoreCard{
-    display: flex;
+    justify-content: center
 }
 .contenitoreAggiungi{
     display: inline-block;

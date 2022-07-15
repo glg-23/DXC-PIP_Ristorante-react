@@ -43,7 +43,7 @@ class MenuRistorante extends React.Component {
             <div>
                 <h2>Elenco dei piatti nel menù</h2>
 
-                <div className='contenitoreCard'>
+                <div className='row contenitoreCard'>
 
                     <CardRicette
                         categoria='PRIMI'

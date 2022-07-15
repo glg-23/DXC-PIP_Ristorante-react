@@ -28,6 +28,7 @@
 
 .card .content {
     padding: 20px 20px 10px 20px;
+    min-height: 275px;
 }
 
 .card[data-color="blue"] .category {
@@ -60,7 +61,8 @@
 }
 
 .content-card {
-    margin-top: 30px;
+    padding-top: 50px;
+    padding-inline: 25px;
     text-align: -webkit-center;
 }
 

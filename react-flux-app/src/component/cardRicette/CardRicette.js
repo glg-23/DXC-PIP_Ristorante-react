@@ -5,7 +5,7 @@ class CardRicette extends React.Component {
 
     render() {
         return (
-            <div className="col-md-4 col-sm-6 content-card">
+            <div className="col-auto content-card">
                 <div className="card-big-shadow">
                     <div className="card card-just-text " data-background="color" data-color={this.props.colore} data-radius="none">
                         <div className="content">
