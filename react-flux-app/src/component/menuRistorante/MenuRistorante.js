@@ -26,16 +26,29 @@ class MenuRistorante extends React.Component {
     }
 
     selezionaColore() {
-        var colori = [
+        /*var colori = [
             'yellow',
             'blue',
-            'green'
-        ];
+            'green',
+            'brown',
+            'purple',
+            'orange'
+        ]; */
 
-        var indiceRandom = Math.floor(Math.random() * colori.length);
-        var coloreRandom = colori[indiceRandom];
-
-        this.setState({ colore: coloreRandom });
+        switch (this.state.categoria) {
+            case "ANTIPASTI": this.setState({ colore: 'yellow' });
+                break;
+            case "PRIMI": this.setState({ colore: 'blue' });
+                break;
+            case "SECONDI": this.setState({ colore: 'green' });
+                break;
+            case "CONTORNI": this.setState({ colore: 'brown' });
+                break;
+            case "DOLCI": this.setState({ colore: 'purple' });
+                break;
+            /*case "": this.setState({ colore: 'orange' });
+                break; */
+        }
     }
 
     render() {
@@ -49,7 +62,7 @@ class MenuRistorante extends React.Component {
                         categoria='PRIMI'
                         titolo='Pasta alla carbonara'
                         ingredienti="pasta, uovo, guanciale, pecorino, pepe"
-                        colore='yellow'>
+                        colore='blue'>
                     </CardRicette>
 
                     <CardRicette
@@ -63,7 +76,7 @@ class MenuRistorante extends React.Component {
                         categoria='CONTORNI'
                         titolo='Insalata mista'
                         ingredienti="insalata, pomodori"
-                        colore='blue'>
+                        colore='brown'>
                     </CardRicette>
 
                 </div>
