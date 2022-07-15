@@ -34,11 +34,11 @@ class AggiungiPiatto extends React.Component {
                         <Form.Label>Categoria</Form.Label>
                         <Form.Select id="categoria" value={this.state.categoria} onChange={this.handleChange}>
                             <option value=""></option>
-                            <option value="Antipasti">Antipasti</option>
-                            <option value="Primi">Primi</option>
-                            <option value="Secondi">Secondi</option>
-                            <option value="Contorni">Contorni</option>
-                            <option value="Dolci">Dolci</option>
+                            <option value="ANTIPASTI">Antipasti</option>
+                            <option value="PRIMI">Primi</option>
+                            <option value="SECONDI">Secondi</option>
+                            <option value="CONTORNI">Contorni</option>
+                            <option value="DOLCI">Dolci</option>
                         </Form.Select>
                     </Form.Group>
 
