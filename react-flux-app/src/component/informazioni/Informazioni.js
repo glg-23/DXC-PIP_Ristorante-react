@@ -1,5 +1,5 @@
 import './Informazioni.css';
-import BottoneHome from '../bottoneHome/BottoneHome';
+import Bottone from '../bottone/Bottone';
 
 function Informazioni() {
     return (
@@ -12,7 +12,10 @@ function Informazioni() {
                 <h5> Gianluigi D'Antimi </h5>
             </div>
 
-            <BottoneHome />
+            <Bottone
+                testo='Torna alla home'
+                linkBottone='/'>
+            </Bottone>
         </div>
     );
 }

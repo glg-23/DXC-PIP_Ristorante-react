@@ -1,7 +1,7 @@
 import './MenuRistorante.css';
 import CardRicette from '../cardRicette/CardRicette';
 import AggiungiPiatto from '../aggiungiPiatto/AggiungiPiatto';
-import BottoneHome from '../bottoneHome/BottoneHome';
+import Bottone from '../bottone/Bottone';
 
 function MenuRistorante() {
     return (
@@ -36,7 +36,10 @@ function MenuRistorante() {
                 <AggiungiPiatto></AggiungiPiatto>
             </div>
 
-            <BottoneHome />
+            <Bottone
+                testo='Torna alla home'
+                linkBottone='/'>
+            </Bottone>
 
         </div>
     );

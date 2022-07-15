@@ -1,16 +1,16 @@
-import './BottoneHome.css';
+import './Bottone.css';
 import Button from 'react-bootstrap/Button';
 
-function BottoneHome() {
+function Bottone(props) {
     return (
         <div>
             <Button
                 size="lg"
                 className='bottone'
-                href='/'>
-                Torna alla Home</Button>
+                href={props.linkBottone}>
+                {props.testo}</Button>
         </div>
     );
 };
 
-export default BottoneHome;
+export default Bottone;

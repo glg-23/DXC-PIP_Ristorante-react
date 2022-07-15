@@ -1,5 +1,5 @@
 import './AggiungiPiatto.css';
-import BottoneHome from '../bottoneHome/BottoneHome';
+import Bottone from '../bottone/Bottone';
 
 function AggiungiPiatto() {
     return (
@@ -31,7 +31,10 @@ function AggiungiPiatto() {
                 </div>
             </form>
 
-            <BottoneHome></BottoneHome>
+            <Bottone
+                testo='Aggiungi piatto'
+                linkBottone=''>
+            </Bottone>
 
         </div>
     );
