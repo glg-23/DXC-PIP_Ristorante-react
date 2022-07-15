@@ -6,6 +6,38 @@ import Bottone from '../bottone/Bottone';
 
 class MenuRistorante extends React.Component {
 
+    state = {
+        categoria: "null",
+        titolo: "null",
+        ingredienti: "null",
+        colore: "null"
+    }
+
+    creaCard() {
+        this.selezionaColore()
+        return (
+            <CardRicette
+                categoria={this.state.categoria}
+                titolo={this.state.titolo}
+                ingredienti={this.state.ingredienti}
+                colore={this.state.colore}>
+            </CardRicette>
+        )
+    }
+
+    selezionaColore() {
+        var colori = [
+            'yellow',
+            'blue',
+            'green'
+        ];
+
+        var indiceRandom = Math.floor(Math.random() * colori.length);
+        var coloreRandom = colori[indiceRandom];
+
+        this.setState({ colore: coloreRandom });
+    }
+
     render() {
         return (
             <div>
@@ -33,6 +65,7 @@ class MenuRistorante extends React.Component {
                         ingredienti="insalata, pomodori"
                         colore='blue'>
                     </CardRicette>
+
                 </div>
 
                 <div className='contenitoreAggiungi'>
