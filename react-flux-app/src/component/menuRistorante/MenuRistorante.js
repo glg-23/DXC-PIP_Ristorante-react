@@ -30,7 +30,6 @@ class MenuRistorante extends React.Component {
             'yellow',
             'blue',
             'green',
-            'brown',
             'purple',
             'orange'
         ]; */
@@ -42,12 +41,10 @@ class MenuRistorante extends React.Component {
                 break;
             case "SECONDI": this.setState({ colore: 'green' });
                 break;
-            case "CONTORNI": this.setState({ colore: 'brown' });
+            case "CONTORNI": this.setState({ colore: 'orange' });
                 break;
             case "DOLCI": this.setState({ colore: 'purple' });
                 break;
-            /*case "": this.setState({ colore: 'orange' });
-                break; */
         }
     }
 
@@ -76,7 +73,7 @@ class MenuRistorante extends React.Component {
                         categoria='CONTORNI'
                         titolo='Insalata mista'
                         ingredienti="insalata, pomodori"
-                        colore='brown'>
+                        colore='orange'>
                     </CardRicette>
 
                 </div>
