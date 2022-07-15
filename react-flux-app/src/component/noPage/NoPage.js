@@ -1,17 +1,21 @@
+import React from 'react';
 import './NoPage.css';
 import Bottone from '../bottone/Bottone';
 
-function NoPage() {
-    return (
-        <div>
-            <h2>La pagina non è stata trovata</h2>
-            
-            <Bottone
-                testo='Torna alla home'
-                linkBottone='/'>
-            </Bottone>
-        </div>
-    );
+class NoPage extends React.Component {
+
+    render() {
+        return (
+            <div>
+                <h2>La pagina non è stata trovata</h2>
+
+                <Bottone
+                    testo='Torna alla home'
+                    linkBottone='/'>
+                </Bottone>
+            </div>
+        );
+    }
 }
 
 export default NoPage;
