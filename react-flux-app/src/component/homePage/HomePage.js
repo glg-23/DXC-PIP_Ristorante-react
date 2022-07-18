@@ -10,7 +10,7 @@ class HomePage extends React.Component {
 
                 <h1>Benvenuto</h1>
                 <br />
-                <h3>In questo sito puoi visualizzare i piatti nel menù ed inserirne di nuovi</h3>
+                <h3>In questo sito è possibile visualizzare i piatti nel menù ed inserirne di nuovi</h3>
 
                 <div>
                     <Bottone
