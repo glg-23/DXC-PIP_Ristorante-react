@@ -9,20 +9,6 @@ class MenuRistorante extends React.Component {
     state = {
         listaPiatti: []
     }
-    
-    /* 
-        creaCard() {
-            this.selezionaColore()
-            return (
-                <CardRicette
-                    categoria={this.state.categoria}
-                    titolo={this.state.titolo}
-                    ingredienti={this.state.ingredienti}
-                    colore={this.state.colore}>
-                </CardRicette>
-            )
-        }
-    */
 
     recuperaPiattoInserito = (piatto) => {
         const listaPiattiCopia = Object.assign(this.state.listaPiatti)
@@ -42,26 +28,16 @@ class MenuRistorante extends React.Component {
 
                 <div className='row contenitoreCard'>
 
-                    <CardRicette
-                        categoria='PRIMI'
-                        titolo='Pasta alla carbonara'
-                        ingredienti="pasta, uovo, guanciale, pecorino, pepe"
-                        colore='blue'>
-                    </CardRicette>
-
-                    <CardRicette
-                        categoria='SECONDI'
-                        titolo='Polpette'
-                        ingredienti="carne macinata, pane, latte, pomodoro"
-                        colore='green'>
-                    </CardRicette>
-
-                    <CardRicette
-                        categoria='CONTORNI'
-                        titolo='Insalata mista'
-                        ingredienti="insalata, pomodori"
-                        colore='orange'>
-                    </CardRicette>
+                    {this.state.listaPiatti.map((piatto, index) => {
+                        return (
+                            <CardRicette
+                                categoria={piatto.categoria}
+                                titolo={piatto.nomePiatto}
+                                ingredienti={piatto.ingredienti}
+                                colore={piatto.colore}
+                            ></CardRicette>
+                        )
+                    })}
 
                 </div>
 
