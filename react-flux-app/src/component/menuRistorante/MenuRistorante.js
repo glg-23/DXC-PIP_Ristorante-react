@@ -45,8 +45,8 @@ class MenuRistorante extends React.Component {
 
                 <Bottone
                     testo='Torna alla home'
-                    linkBottone='/'>
-                </Bottone>
+                    linkBottone='/'
+                ></Bottone>
 
             </div>
         );

@@ -37,13 +37,13 @@ class AggiungiPiatto extends React.Component {
         let piattoInseritoCopia = Object.assign({}, prevState.piattoInserito)
 
         switch (piattoInseritoCopia.categoria) {
-            case "ANTIPASTI": piattoInseritoCopia.colore = 'yellow';
+            case "ANTIPASTI": piattoInseritoCopia.colore = 'blue';
                 break;
-            case "PRIMI": piattoInseritoCopia.colore = 'blue';
+            case "PRIMI": piattoInseritoCopia.colore = 'yellow';
                 break;
-            case "SECONDI": piattoInseritoCopia.colore = 'green';
+            case "SECONDI": piattoInseritoCopia.colore = 'orange';
                 break;
-            case "CONTORNI": piattoInseritoCopia.colore = 'orange';
+            case "CONTORNI": piattoInseritoCopia.colore = 'green';
                 break;
             case "DOLCI": piattoInseritoCopia.colore = 'purple';
                 break;
