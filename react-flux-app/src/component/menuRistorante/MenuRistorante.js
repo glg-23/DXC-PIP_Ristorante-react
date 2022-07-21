@@ -7,51 +7,32 @@ import Bottone from '../bottone/Bottone';
 class MenuRistorante extends React.Component {
 
     state = {
-
-        /* TODO rename var */
-        oggettoPassato: [{
-            categoria: "",
-            nomePiatto: "",
-            ingredienti: ""
-        }]
+        listaPiatti: []
     }
-
-    creaCard() {
-        this.selezionaColore()
-        return (
-            <CardRicette
-                categoria={this.state.categoria}
-                titolo={this.state.titolo}
-                ingredienti={this.state.ingredienti}
-                colore={this.state.colore}>
-            </CardRicette>
-        )
-    }
-
-    selezionaColore() {
-        switch (this.state.categoria) {
-            case "ANTIPASTI": this.setState({ colore: 'yellow' });
-                break;
-            case "PRIMI": this.setState({ colore: 'blue' });
-                break;
-            case "SECONDI": this.setState({ colore: 'green' });
-                break;
-            case "CONTORNI": this.setState({ colore: 'orange' });
-                break;
-            case "DOLCI": this.setState({ colore: 'purple' });
-                break;
+    
+    /* 
+        creaCard() {
+            this.selezionaColore()
+            return (
+                <CardRicette
+                    categoria={this.state.categoria}
+                    titolo={this.state.titolo}
+                    ingredienti={this.state.ingredienti}
+                    colore={this.state.colore}>
+                </CardRicette>
+            )
         }
-    }
+    */
 
     recuperaPiattoInserito = (piatto) => {
-        const oggettoPassatoCopia = Object.assign(this.state.oggettoPassato)
-        oggettoPassatoCopia.push(piatto)
+        const listaPiattiCopia = Object.assign(this.state.listaPiatti)
+        listaPiattiCopia.push(piatto)
 
-        this.setState({ oggettoPassato: oggettoPassatoCopia })
+        this.setState({ listaPiatti: listaPiattiCopia })
 
         /* TODO togliere console log */
         console.log("STATE recuperaPiattoInserito() in menuRistorante")
-        console.log(this.state.oggettoPassato)
+        console.log(this.state.listaPiatti)
     }
 
     render() {

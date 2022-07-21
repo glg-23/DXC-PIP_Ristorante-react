@@ -7,7 +7,8 @@ class AggiungiPiatto extends React.Component {
         piattoInserito: {
             categoria: "",
             nomePiatto: "",
-            ingredienti: ""
+            ingredienti: "",
+            colore: ""
         }
     }
 
@@ -23,15 +24,32 @@ class AggiungiPiatto extends React.Component {
     }
 
     handleSubmit = (event) => {
-        alert('Piatto inserito: ' + this.state.piattoInserito.nomePiatto);
-        
-        /* TODO togliere console log */
-        console.log("handleSubmit() in AggiungiPiatto: ")
-        console.log(this.state)
+        let piattoInseritoConColore = this.impostaColore(this.state)
 
-        this.props.recuperaPiattoInserito(this.state.piattoInserito)
+        alert('Piatto inserito: ' + this.state.piattoInserito.nomePiatto);
+
+        this.props.recuperaPiattoInserito(piattoInseritoConColore)
 
         event.preventDefault();
+    }
+
+    impostaColore = (prevState) => {
+        let piattoInseritoCopia = Object.assign({}, prevState.piattoInserito)
+
+        switch (piattoInseritoCopia.categoria) {
+            case "ANTIPASTI": piattoInseritoCopia.colore = 'yellow';
+                break;
+            case "PRIMI": piattoInseritoCopia.colore = 'blue';
+                break;
+            case "SECONDI": piattoInseritoCopia.colore = 'green';
+                break;
+            case "CONTORNI": piattoInseritoCopia.colore = 'orange';
+                break;
+            case "DOLCI": piattoInseritoCopia.colore = 'purple';
+                break;
+        }
+
+        return piattoInseritoCopia
     }
 
     render() {
