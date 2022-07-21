@@ -15,10 +15,6 @@ class MenuRistorante extends React.Component {
         listaPiattiCopia.push(piatto)
 
         this.setState({ listaPiatti: listaPiattiCopia })
-
-        /* TODO togliere console log */
-        console.log("STATE recuperaPiattoInserito() in menuRistorante")
-        console.log(this.state.listaPiatti)
     }
 
     render() {
