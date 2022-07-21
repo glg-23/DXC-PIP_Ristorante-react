@@ -11,10 +11,10 @@ class MenuRistorante extends React.Component {
     }
 
     recuperaPiattoInserito = (piatto) => {
-        const listaPiattiCopia = Object.assign(this.state.listaPiatti)
-        listaPiattiCopia.push(piatto)
+        const listaPiattiCopia = Object.assign(this.state.listaPiatti);
+        listaPiattiCopia.push(piatto);
 
-        this.setState({ listaPiatti: listaPiattiCopia })
+        this.setState({ listaPiatti: listaPiattiCopia });
     }
 
     render() {
