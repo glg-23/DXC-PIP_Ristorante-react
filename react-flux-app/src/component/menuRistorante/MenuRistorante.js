@@ -7,26 +7,13 @@ import Bottone from '../bottone/Bottone';
 class MenuRistorante extends React.Component {
 
     state = {
-        categoria: "",
-        nomePiatto: "",
-        ingredienti: "",
-        colore: ""
-    }
 
-    handleChange = (event) => {
-        const value = event.target.value;
-        const id = event.target.id;
-        this.setState({
-            [id]: value,
-        });
-        console.log(this.state)
-    }
-
-    handleSubmit = (event) => {
-        alert('Piatto inserito: ' + this.state.nomePiatto);
-        event.preventDefault();
-
-        this.setState({ categoria: "", nomePiatto: "", ingredienti: "" })
+        /* TODO rename var */
+        oggettoPassato: [{
+            categoria: "",
+            nomePiatto: "",
+            ingredienti: ""
+        }]
     }
 
     creaCard() {
@@ -54,6 +41,17 @@ class MenuRistorante extends React.Component {
             case "DOLCI": this.setState({ colore: 'purple' });
                 break;
         }
+    }
+
+    recuperaPiattoInserito = (piatto) => {
+        const oggettoPassatoCopia = Object.assign(this.state.oggettoPassato)
+        oggettoPassatoCopia.push(piatto)
+
+        this.setState({ oggettoPassato: oggettoPassatoCopia })
+
+        /* TODO togliere console log */
+        console.log("STATE recuperaPiattoInserito() in menuRistorante")
+        console.log(this.state.oggettoPassato)
     }
 
     render() {
@@ -88,11 +86,7 @@ class MenuRistorante extends React.Component {
 
                 <div className='contenitoreAggiungi'>
                     <AggiungiPiatto
-                        handleChange={this.handleChange}
-                        handleSubmit={this.handleSubmit}
-                        categoria={this.state.categoria}
-                        nomePiatto={this.state.nomePiatto}
-                        ingredienti={this.state.ingredienti}
+                        recuperaPiattoInserito={this.recuperaPiattoInserito}
                     ></AggiungiPiatto>
                 </div>
 
