@@ -1,4 +1,5 @@
 .contenitoreCard{
+    margin-inline: 100px !important;
     justify-content: center
 }
 .contenitoreAggiungi{
