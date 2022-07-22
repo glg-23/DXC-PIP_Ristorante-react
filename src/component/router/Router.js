@@ -9,14 +9,14 @@ class Router extends React.Component {
 
     render() {
         return (
-            <HashRouter>
+            <BrowserRouter>
                 <Routes>
                     <Route index element={<Home />} />
                     <Route path="menu" element={<MenuRistorante />} />
                     <Route path="informazioni" element={<Informazioni />} />
                     <Route path="*" element={<NoPage />} />
                 </Routes>
-            </HashRouter>
+            </BrowserRouter>
         );
     }
 }
