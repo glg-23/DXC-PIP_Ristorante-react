@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/DXC-PIP_Ristorante-react/homepage/static/css/main.e6ae014c.css",
-    "main.js": "/DXC-PIP_Ristorante-react/homepage/static/js/main.9bf72a2b.js",
+    "main.js": "/DXC-PIP_Ristorante-react/homepage/static/js/main.9622b682.js",
     "static/js/787.cd50f13e.chunk.js": "/DXC-PIP_Ristorante-react/homepage/static/js/787.cd50f13e.chunk.js",
     "static/media/logoRistorante-bianco.png": "/DXC-PIP_Ristorante-react/homepage/static/media/logoRistorante-bianco.b441056b3146a75695f5.png",
     "index.html": "/DXC-PIP_Ristorante-react/homepage/index.html",
     "main.e6ae014c.css.map": "/DXC-PIP_Ristorante-react/homepage/static/css/main.e6ae014c.css.map",
-    "main.9bf72a2b.js.map": "/DXC-PIP_Ristorante-react/homepage/static/js/main.9bf72a2b.js.map",
+    "main.9622b682.js.map": "/DXC-PIP_Ristorante-react/homepage/static/js/main.9622b682.js.map",
     "787.cd50f13e.chunk.js.map": "/DXC-PIP_Ristorante-react/homepage/static/js/787.cd50f13e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6ae014c.css",
-    "static/js/main.9bf72a2b.js"
+    "static/js/main.9622b682.js"
   ]
 }
