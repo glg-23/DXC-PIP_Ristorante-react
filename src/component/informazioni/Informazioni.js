@@ -17,7 +17,7 @@ class Informazioni extends React.Component {
 
                 <Bottone
                     testo='Torna alla home'
-                    linkBottone='/'>
+                    linkBottone='/home'>
                 </Bottone>
             </div>
         );

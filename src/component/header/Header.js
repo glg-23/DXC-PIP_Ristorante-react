@@ -12,7 +12,7 @@ class Header extends React.Component {
             <div>
                 <Navbar className='sfondoNav' variant="dark">
                     <Container>
-                        <Navbar.Brand href="/">
+                        <Navbar.Brand href="/home">
                             <img
                                 src={logo}
                                 width="40"
@@ -23,7 +23,7 @@ class Header extends React.Component {
                         </Navbar.Brand>
 
                         <Nav className="me-auto">
-                            <Nav.Link href="/">Home</Nav.Link>
+                            <Nav.Link href="/home">Home</Nav.Link>
                             <Nav.Link href="/menu">Menù</Nav.Link>
                             <Nav.Link href="/informazioni">Informazioni</Nav.Link>
                         </Nav>
