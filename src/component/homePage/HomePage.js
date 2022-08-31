@@ -20,7 +20,8 @@ class HomePage extends React.Component {
                     <Bottone
                         testo='Informazioni'
                         linkBottone='/informazioni'>
-                    </Bottone>            </div>
+                    </Bottone>
+                </div>
 
             </div >
         );
