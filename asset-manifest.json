@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/DXC-PIP_Ristorante-react/static/css/main.e6ae014c.css",
-    "main.js": "/DXC-PIP_Ristorante-react/static/js/main.22206475.js",
+    "main.js": "/DXC-PIP_Ristorante-react/static/js/main.fe5c675a.js",
     "static/js/787.cd50f13e.chunk.js": "/DXC-PIP_Ristorante-react/static/js/787.cd50f13e.chunk.js",
     "static/media/logoRistorante-bianco.png": "/DXC-PIP_Ristorante-react/static/media/logoRistorante-bianco.b441056b3146a75695f5.png",
     "index.html": "/DXC-PIP_Ristorante-react/index.html",
     "main.e6ae014c.css.map": "/DXC-PIP_Ristorante-react/static/css/main.e6ae014c.css.map",
-    "main.22206475.js.map": "/DXC-PIP_Ristorante-react/static/js/main.22206475.js.map",
+    "main.fe5c675a.js.map": "/DXC-PIP_Ristorante-react/static/js/main.fe5c675a.js.map",
     "787.cd50f13e.chunk.js.map": "/DXC-PIP_Ristorante-react/static/js/787.cd50f13e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6ae014c.css",
-    "static/js/main.22206475.js"
+    "static/js/main.fe5c675a.js"
   ]
 }
