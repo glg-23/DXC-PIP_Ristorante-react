@@ -10,6 +10,8 @@ L'utente può navigare in varie pagine e visualizzare il menù del ristorante, c
 
 Deploy: https://glg-23.github.io/DXC-PIP_Ristorante-react/
 
+Anteprima:
+
 ![screenshot](https://github.com/glg-23/DXC-PIP_react/blob/main/Screenshot%20DXC%20PIP%20-%20react.jpg)
 
 -----
