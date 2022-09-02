@@ -16,11 +16,9 @@ Anteprima:
 
 -----
 
-DXC Technology
-
+DXC Technology  
 https://dxc.com/
 
 
-Skillsoft Percipio
-
+Skillsoft Percipio  
 https://www.skillsoft.com/
