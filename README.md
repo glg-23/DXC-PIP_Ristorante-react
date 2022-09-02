@@ -17,8 +17,10 @@ Anteprima:
 -----
 
 DXC Technology
+
 https://dxc.com/
 
 
 Skillsoft Percipio
+
 https://www.skillsoft.com/
