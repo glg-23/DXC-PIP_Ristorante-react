@@ -8,7 +8,7 @@ Applicazione realizzata con react per un ristorante fittizio.
 
 L'utente può navigare in varie pagine e visualizzare il menù del ristorante, con la possibilità di inserire nuovi piatti, con controlli legati ai dati inseriti.
 
-Deploy: https://glg-23.github.io/DXC-PIP_Ristorante-react/
+<!-- Deploy: https://glg-23.github.io/DXC-PIP_Ristorante-react/ -->
 
 Anteprima:
 
@@ -17,5 +17,8 @@ Anteprima:
 -----
 
 DXC Technology
-
 https://dxc.com/
+
+
+Skillsoft Percipio
+https://www.skillsoft.com/
