@@ -22,3 +22,7 @@ https://dxc.com/
 
 Skillsoft Percipio  
 https://www.skillsoft.com/
+
+-----
+
+<img src="https://github.com/glg-23/DXC-PIP_react/blob/main/Skillsoft%20Badges%20react.jpg" height="400px"/>
