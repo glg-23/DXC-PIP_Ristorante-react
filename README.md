@@ -23,6 +23,9 @@ https://dxc.com/
 Skillsoft Percipio  
 https://www.skillsoft.com/
 
+Skillsoft credentials wallet:  
+https://skillsoft.digitalbadges.skillsoft.com/profile/gianluigidantimi963248/wallet#gs.b1mog6
+
 -----
 
 <img src="https://github.com/glg-23/DXC-PIP_react/blob/main/Skillsoft%20Badges%20react.jpg" height="400px"/>
