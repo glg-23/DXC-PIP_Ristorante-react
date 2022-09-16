@@ -28,4 +28,4 @@ https://skillsoft.digitalbadges.skillsoft.com/profile/gianluigidantimi963248/wal
 
 -----
 
-<img src="https://github.com/glg-23/DXC-PIP_react/blob/main/Skillsoft%20Badges%20react.jpg" height="400px"/>
+<img src="https://github.com/glg-23/DXC-PIP_react/blob/main/Skillsoft%20Build%20Apps%20Using%20React%20-%20Gianluigi%20D'Antimi.jpg" height="400px"/>
